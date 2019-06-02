@@ -1,0 +1,10 @@
+{
+    "appName": "For tests",
+    "navigation": {
+      "text1": "text 1",
+      "text2": "text 2"
+    },
+    "home": {
+      "welcome": "Welcome to %{appName}!"
+    }
+  }
