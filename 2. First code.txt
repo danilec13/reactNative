@@ -1,0 +1,31 @@
+https://facebook.github.io/react-native/docs/tutorial
+
+1. cd yourProjectFolder
+2. npm start
+3. in expo app on your device open the app by QR code.
+
+4. in some editor open the project.
+5. open app.js
+
+replace all content to this:
+
+import React, {Component} from 'react';
+import {Text, View} from 'react-native';
+
+export default class MainClass extends Component{
+  render(){
+    return(
+      <View style={{flex:1, justifyContent: "center", alignItems:"center"}}>
+        <Text>Hello, Hellooo!</Text>
+      </View>
+    );
+  }
+}
+
+
+You should see how the app on your device is changing.
+
+here you have a features of ES2015
+Set of improvements to JavaScript that is now part of the official standard, but not yet supported by all browsers, so often it isn't used yet in web development
+https://babeljs.io/docs/en/learn/
+

@@ -1,0 +1,31 @@
+https://facebook.github.io/react-native/docs/getting-started
+
+1. install node js: https://nodejs.org/en/download/
+
+2. in cmd check that all is installed: npm -v
+
+3. If you are coming from a web background, the easiest way to get started with React Native is with 
+Expo tools because they allow you to start a project without installing and configuring Xcode or Android Studio. 
+Expo CLI sets up a development environment on your local machine and you can be writing a React Native app 
+within minutes. For instant development, you can use Snack to try React Native out directly in your web browser.
+
+	npm install -g expo-cli	
+(takes time) 647 seconds~
+
+4. Create first app:
+
+	expo init someTest
+
+will ask template: blank, etc.
+will ask visible on home screen name of app
+(takes time) 350 seconds~
+
+possible errors: Failed using git
+solution: https://git-scm.com/downloads
+
+	cd someTest
+	npm start # you can also use: expo start
+
+will open browser tab. You should wait until Building Javascript bundle finishes. Takes a lot of time: 199000 ms. 
+Download in your phone from market app: Expo
+Open an app from QR code.

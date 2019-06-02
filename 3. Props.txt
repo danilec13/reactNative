@@ -1,0 +1,31 @@
+https://facebook.github.io/react-native/docs/props
+https://facebook.github.io/react-native/docs/text.html
+
+Most components can be customized when they are created, with different parameters. 
+These creation parameters are called props.
+
+import React, { Component } from 'react';
+import { AppRegistry, Image } from 'react-native';
+
+export default class Bananas extends Component {
+  render() {
+    let pic = {
+      uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
+    };
+    return (
+      <Image source={pic} style={{width: 193, height: 110}}/>
+    );
+  }
+}
+
+// skip this line if using Create React Native App   
+//https://github.com/react-community/create-react-native-app/issues/153
+AppRegistry.registerComponent('AwesomeProject', () => Bananas);
+
+
+Notice the braces surrounding {pic} - these embed the variable pic into JSX. 
+You can put any JavaScript expression inside braces in JSX.
+
+Your own components can also use props. This lets you make a single component that is used in many 
+different places in your app, with slightly different properties in each place. 
+Just refer to this.props in your render function. 

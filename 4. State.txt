@@ -1,0 +1,75 @@
+https://facebook.github.io/react-native/docs/state
+
+There are two types of data that control a component: props and state. 
+props are set by the parent and they are fixed throughout the lifetime of a component. 
+For data that is going to change, we have to use state.
+
+import React, { Component } from 'react';
+import { AppRegistry, Text, View } from 'react-native';
+
+class Blink extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { isShowingText: true };
+
+    // Toggle the state every second
+    setInterval(() => (
+      this.setState(previousState => (
+        { isShowingText: !previousState.isShowingText }
+      ))
+    ), 2000);
+  }
+
+  render() {
+    if (!this.state.isShowingText) {
+      return null;
+    }
+
+    return (
+      <Text>{this.props.text}</Text>
+    );
+  }
+}
+
+export default class BlinkApp extends Component {
+  render() {
+    return (
+      <View>
+        <Blink text='I love to blink' />
+        <Blink text='Yes blinking is so great' />
+        <Blink text='Why did they ever take this out of HTML' />
+        <Blink text='Look at me look at me look at me' />
+      </View>
+    );
+  }
+}
+
+another example:
+https://codeburst.io/props-and-state-in-react-native-explained-in-simple-english-8ea73b1d224e
+
+class Form extends React.Component {
+
+  constructor (props) {
+     super(props)
+     this.state = {
+       input: ''
+     }
+  }
+
+handleChangeInput = (text) => {
+    this.setState({ input: text })
+  }
+  
+  render () {
+    const { input } = this.state
+
+    return (
+       <View>
+          <TextInput style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+            onChangeText={this.handleChangeInput}
+            value={input}
+          />
+        </View>
+      )
+    }
+ }

@@ -1,0 +1,33 @@
+https://facebook.github.io/react-native/docs/handling-text-input
+https://facebook.github.io/react-native/docs/textinput#content
+
+https://www.tutorialspoint.com/react_native/react_native_text_input.htm
+
+TextInput is a basic component that allows the user to enter text. 
+It has an onChangeText prop that takes a function to be called every time the text changed, 
+and an onSubmitEditing prop that takes a function to be called when the text is submitted.
+
+import React, { Component } from 'react';
+import { AppRegistry, Text, TextInput, View } from 'react-native';
+
+export default class PizzaTranslator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {text: ''};
+  }
+
+  render() {
+    return (
+      <View style={{padding: 10}}>
+        <TextInput
+          style={{height: 40}}
+          placeholder="Type here to translate!"
+          onChangeText={(text) => this.setState({text})}
+        />
+        <Text style={{padding: 10, fontSize: 42}}>
+          {this.state.text.split(' ').map((word) => word && '??').join(' ')}
+        </Text>
+      </View>
+    );
+  }
+}

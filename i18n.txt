@@ -1,0 +1,3 @@
+https://whatdidilearn.info/2019/01/20/internationalization-in-react-native.html
+
+https://docs.expo.io/versions/latest/sdk/localization/

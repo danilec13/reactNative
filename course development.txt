@@ -1,0 +1,11 @@
+1. finalize all topics from 
+	https://facebook.github.io/react-native/docs/getting-started
+	https://www.tutorialspoint.com/react_native/react_native_overview.htm
+
+2. create mine order of points to learn from the beginning to the investigating tasks.
+
+3. what they will be able to do after course: 
+	3.1 some pretty view. With dynamically changing elements
+	3.2 that can load data and can do some logic to transform it
+	3.3 app will use a few file to store parts of app like logic, elements of view, styles, sources, i18n, etc.
+	3.4 try to use some external library
