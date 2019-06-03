@@ -1,0 +1,12 @@
+preloader
+https://docs.expo.io/versions/v32.0.0/sdk/app-loading/
+audio
+https://docs.expo.io/versions/v32.0.0/sdk/audio/
+accelerometer
+https://docs.expo.io/versions/v32.0.0/sdk/accelerometer/
+camera
+https://docs.expo.io/versions/v32.0.0/sdk/camera/
+progress bar android
+https://docs.expo.io/versions/v32.0.0/react-native/progressbarandroid/
+modal
+https://docs.expo.io/versions/v32.0.0/react-native/modal/
