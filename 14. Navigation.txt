@@ -1,0 +1,4 @@
+https://reactnavigation.org/docs/en/getting-started.html
+npm install --save react-navigation
+https://stackoverflow.com/questions/37093675/react-native-fullscreen/43067124
+https://github.com/hmajid2301/medium/tree/master/11.%20React%20Navigation%20with%20React%20Native/source_code

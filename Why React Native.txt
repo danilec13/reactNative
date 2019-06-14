@@ -1,0 +1,8 @@
+https://www.oreilly.com/library/view/learning-react-native/9781491929049/ch01.html
+
+
+https://medium.com/leopark-lab/por-qu%C3%A9-desarrollar-apps-de-react-native-en-expo-2e1b83e4d00a
+
+https://gallardoramos.com/porque-elegido-react-native-proxima-app/
+
+https://apiko.com/blog/expo-vs-vanilla-react-native/

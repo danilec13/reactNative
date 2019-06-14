@@ -1,3 +1,5 @@
 https://whatdidilearn.info/2019/01/20/internationalization-in-react-native.html
 
+npm install --save i18n-js
+
 https://docs.expo.io/versions/latest/sdk/localization/

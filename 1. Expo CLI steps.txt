@@ -29,4 +29,11 @@ solution: https://git-scm.com/downloads
 
 will open browser tab. You should wait until Building Javascript bundle finishes. Takes a lot of time: 199000 ms. 
 Download in your phone from market app: Expo
+IMPORTANT: YOU SHOULD BE CONNECTED TO THE SAME NETWORK!!!!
 Open an app from QR code.
+
+Or run on android directly: expo start --android or 
+npm run android and choose Local, not Lan or tunel
+
+lifeCycles:
+https://www.codingame.com/playgrounds/8747/react-lifecycle-methods-render-and-componentdidmount
