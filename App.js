@@ -1,7 +1,7 @@
 
 // 1 EXAMPLE:
 
-/*import React from 'react';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default class App extends React.Component {
@@ -41,9 +41,9 @@ export default class MainClass extends Component{
   }
 }
 /**/
-
+/*
 //3 EXAMPLE PROPS:
-/*import React, { Component } from 'react';
+import React, { Component } from 'react';
 import { AppRegistry, Image, View } from 'react-native';
 
 export default class Bananas extends Component {
@@ -756,6 +756,7 @@ export default App
 /**/
 
 //13. EXAMPLE SQLite
+/*
 import React from 'react';
 import {
   ScrollView,
@@ -938,3 +939,19 @@ const styles = StyleSheet.create({
     marginBottom: 8
   },
 });
+/**/
+/*
+//14. Navigation
+import React, { Component } from "react";
+import MainApp from "./nav/MainApp";
+import { StatusBar } from 'react-native';
+
+export default class App extends Component {
+  componentDidMount() {
+      StatusBar.setHidden(true);
+  }
+  render() {
+    return <MainApp />;
+  }
+}
+/**/
