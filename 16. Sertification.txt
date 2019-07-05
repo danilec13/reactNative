@@ -1,0 +1,29 @@
+http://lessons.livecode.com/m/4069/l/32674-how-do-i-create-a-self-signed-certificate-for-an-android-app
+
+download java jdk: 
+https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
+
+open cmd in folder for certs:
+execute keytool.exe in cmd
+execute it with:
+
+keytool.exe -genkey -v -keystore release.keystore -alias myAppAlias -keyalg RSA -keysize 2048 -validity 10000
+
+then put some pass: 123123qweqwe
+fill the data of questions
+
+
+
+Note: If you choose the first option and later decide to upload your own keystore, 
+we currently offer an option to clear your current Android keystore from our build servers 
+by running 
+expo build:android --clear-credentials. 
+This is irreversible, so only run this command if you know what you are doing! 
+You can download a backup copy of the keystore by running 
+expo fetch:android:keystore. 
+If you do not have a local copy of your keystore , 
+you will be unable to publish new versions of your app to the Play Store. 
+Your only option would be to generate a new keystore and re-upload 
+your application as a new application. 
+
+path to a cert: C:\Users\Danila\Desktop\ReactNative\Certs\release.keystore
