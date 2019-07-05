@@ -7,7 +7,7 @@ open cmd in folder for certs:
 execute keytool.exe in cmd
 execute it with:
 
-keytool.exe -genkey -v -keystore release.keystore -alias myAppAlias -keyalg RSA -keysize 2048 -validity 10000
+"C:\path\keytool.exe" -genkey -v -keystore release.keystore -alias myAppAlias -keyalg RSA -keysize 2048 -validity 10000
 
 then put some pass: 123123qweqwe
 fill the data of questions
